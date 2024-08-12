@@ -69,12 +69,12 @@
     "webpack-dev-server": "^4.7.4"
   },
   "consolePlugin": {
-    "name": "console-plugin-template",
+    "name": "custom-plugin",
     "version": "0.0.1",
-    "displayName": "OpenShift Console Plugin Template",
+    "displayName": "Custom OCP Plugin",
     "description": "Template project for OpenShift Console plugins. Edit package.json to change this message and the plugin name.",
     "exposedModules": {
-      "ExamplePage": "./components/ExamplePage"
+      "CustomPage": "./components/CustomPage"
     },
     "dependencies": {
       "@console/pluginAPI": "*"

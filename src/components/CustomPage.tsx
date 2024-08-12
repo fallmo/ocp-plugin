@@ -3,9 +3,9 @@ import Helmet from 'react-helmet';
 import { useTranslation } from 'react-i18next';
 import { Page, PageSection, Text, TextContent, Title } from '@patternfly/react-core';
 import { CheckCircleIcon } from '@patternfly/react-icons';
-import './example.css';
+import './custompage.css';
 
-export default function ExamplePage() {
+export default function CustomPage() {
   const { t } = useTranslation('plugin__console-plugin-template');
 
   return (
